@@ -1,7 +1,8 @@
 # FireWatch - Project Overview (Public)
 
 This is a public-friendly **overview** of my senior capstone project **FireWatch**.
-The original repository is private and owned by my team. This page shares **No private source code, credentials, or sensitive data are included.**
+The original repository is private and owned by my team. This page shares the **architecture, my role, key decisions, and screenshots** only.
+**No private source code, credentials, or sensitive data are included.**
 
 ---
 
@@ -47,35 +48,41 @@ flowchart LR
 ---
 
 ## Tech Stack
-• Python, Django
-• PostgreSQL
-• Docker / Docker Compose
-• GitHub Actions (CI basics)
-• NDEF (development via ndeflib) for realistic message structure in the stub
+- Python, Django
+- PostgreSQL
+- Docker / Docker Compose
+- GitHub Actions (CI basics)
+- NDEF (development via ndeflib) for realistic message structure in the stub
 
 ---
 
-## Screenshots
+## Screenshots (redacted/safe)
+
+![RFID Modal Home](images/rfid-modal-home.png)  
+*User clicks **"Simulate RFID Scan"** from the home page to begin the scan process.*
 
 
----
+![RFID Modal Initialization](images/rfid-modal-init.png)  
+*Modal opens with **“RFID Scan Initialization”** and displays a randomly generated firearm serial number.*
 
-## Documentation
-• 
-•
+
+![RFID Modal Auto-Close](images/rfid-modal-close.png)  
+*After ~3 seconds, the modal closes automatically and the serial number is inserted into the input field.*
+
 
 ---
 
 ## What's Not Included
-• Private repository code and commit history
-• Secrets, credentials, environment files, or network diagrams tied to any real system(s)
-• Any content restricted by course/team policy
+- Private repository code and commit history
+- Secrets, credentials, environment files, or network diagrams tied to any real system(s)
+- Any content restricted by course/team policy
 
 ---
 
 ## Notes for Reviewers
-• This project was built as a **senior capstone** prototype to validate feasibility and integration points.
-• My focus was the **RFID simulation and data pipeline** (encode/parse → store → display) and ensuring the flow could later swap to a physical reader.
+- This project was built as a **senior capstone** prototype to validate feasibility and integration points.
+- My focus was the **RFID simulation and data pipeline** (encode/parse → store → display) and ensuring the flow could later swap to a physical reader.
+- The original team presentation included additional client-context and sensitive technical details, which have been intentially excluded here for professionalism and security.
 
 ---
 
